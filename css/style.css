@@ -1,0 +1,130 @@
+
+.container {
+    background-image: url('../img/bg-intro-desktop.png');
+    background-color:hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    color: #FDFDFD;
+    width: 45%;
+    padding: 1rem;
+    
+}
+
+
+.conteudo__titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: auto;
+}
+
+.conteudo__paragrafo {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.cadastro {
+    
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 75%;
+        
+}
+
+.cadastro__botao {
+    font-family: 'Poppins', sans-serif;
+    height: 10%;
+    margin-bottom: 1rem;
+    color: #FDFDFD;
+    background-color: hsl(248, 32%, 49%);
+    border: 1px solid hsl(248, 32%, 49%);
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(52, 45, 45);
+}
+
+.cadastro__botao:hover {
+    cursor:pointer;
+}
+
+
+.cadastro__formulario {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 65%;
+    padding: 1.75rem;
+    border: 1px solid #FDFDFD;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(52, 45, 45);
+    
+}
+
+.cadastro__envio {
+    font-family: 'Poppins', sans-serif;
+    height: 15%;
+    margin-top: 1rem;
+    color: #FDFDFD;
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%);
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(52, 45, 45);
+}
+
+.cadastro__envio:hover {
+    cursor:pointer;
+}
+
+.cadastro__formulario-nome1 , .cadastro__formulario-nome2 , .cadastro__formulario-email , .cadastro__formulario-senha {
+    border: 1px solid rgb(203, 203, 203);
+    color: rgb(105, 105, 105);
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+    height: 15%;
+    
+       
+}
+
+.cadastro__formulario-termos {
+    font-size: 9px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cadastro__formulario-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(0, 100%, 74%);
+
+}
+
+.cadastro__erro {
+    display: none;
+}
+
+.cadastro__erro-msg {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 100%, 74%);
+    text-align: end;
+    font-size: 10px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.cadastro__formulario-erro {
+    border: 1px solid hsl(0, 100%, 74%);
+}
+

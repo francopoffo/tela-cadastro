@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="container">
+        <div class="conteudo">
+            <h1 class="conteudo__titulo">Aprenda a programar assistindo aos outros</h1>
+            <p class="conteudo__paragrafo">
+                Veja como programadores profissionais resolvem problemas em tempo real.<br>Assistindo tutoriais passo-a-passo é ótimo, mas entender como um programador pensa é inestimável.
+            </p>
+        </div>
+        <div class="cadastro">
+            <button class="cadastro__botao">Teste de graça por 7 dias, R$ 20 por mês após!</button>
+            <form class="cadastro__formulario">
+                <input class="cadastro__formulario-nome1" type="text" value="Primeiro nome"></input>
+                <span name="nome1" id="nome1" class="cadastro__erro cadastro__erro-msg">Este campo deve ser preenchido</span>
+                <input class="cadastro__formulario-nome2" type="text" value="Último nome"></input>
+                <span id="nome2" class="cadastro__erro cadastro__erro-msg">Este campo deve ser preenchido</span>
+                <input class="cadastro__formulario-email" type="email" value="Email"></input>
+                <span id="email" class="cadastro__erro cadastro__erro-msg">Este não é um email válido</span>
+                <input class="cadastro__formulario-senha" type="text" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{4,8}$" title="A senha deve conter uma letra minúscula, uma letra maiúscula, um dígito, 6-13 caracteres de comprimento e nenhum espaço." value="Senha"></input>
+                <span id="senha" class="cadastro__erro cadastro__erro-msg">Este campo deve ser preenchido</span>
+                <input type="submit" class="cadastro__envio" value="Enviar os seus dados e começar seu teste grátis!"></input>
+                <p class="cadastro__formulario-termos">Ao clicar neste botão você estará aceitando nossos <a class="cadastro__formulario-link" href="#">Termos e condições</a></p>
+            </form>
+            
+        </div>
+    </section>
+    <script src="./erros.js"></script>
+</body>
+</html>
