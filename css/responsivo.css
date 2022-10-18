@@ -1,0 +1,51 @@
+@media screen and (max-width: 994px) {
+    .container {
+        flex-direction: column;
+    }
+    .conteudo {
+        text-align: center;
+        width: 75%;  
+    }
+    
+    .cadastro {
+        width: 75%;
+        height: 75%;
+    }
+    .cadastro__envio {
+        font-size: 16px;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .conteudo {
+        width: 85%;  
+    }
+    .cadastro {
+        width: 85%;
+        height: 65%;
+    }
+    
+    .conteudo__titulo {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    .cadastro {
+        width: 85%;
+        height: 75%;
+    }
+
+    .cadastro__botao {
+        height: 15%;
+        
+    }
+    
+    .conteudo__titulo {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+}
