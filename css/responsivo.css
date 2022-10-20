@@ -49,3 +49,9 @@
         margin-bottom: 1rem;
     }
 }
+
+@media screen and (max-height: 680px) {
+    .cadastro {
+        margin-bottom: 1rem;
+    }
+}

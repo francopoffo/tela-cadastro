@@ -57,7 +57,7 @@ botaoEnvio.addEventListener('click', (e) => {
     console.log(senhaValue);
     
     if (senhaValue === '') {
-        email.classList.add("cadastro__formulario-erro");
+        senha.classList.add("cadastro__formulario-erro");
         erroSenha.classList.remove("cadastro__erro");
 
         e.preventDefault();
@@ -66,8 +66,6 @@ botaoEnvio.addEventListener('click', (e) => {
         senha.classList.remove("cadastro__formulario-erro");
         erroSenha.classList.add("cadastro__erro");
     }
-
-    
-    
+   
 })
 
