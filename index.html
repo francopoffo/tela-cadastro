@@ -29,7 +29,7 @@
                 <span id="segundoNomeErro" class="cadastro__erro cadastro__erro-msg">Este campo deve ser preenchido</span>
                 <input id="email" class="cadastro__formulario-email" type="email" placeholder="Email"></input>
                 <span id="emailErro" class="cadastro__erro cadastro__erro-msg">Este não é um email válido</span>
-                <input id="senha" class="cadastro__formulario-senha" type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{4,8}$" title="A senha deve conter uma letra minúscula, uma letra maiúscula, um dígito, 6-13 caracteres de comprimento e nenhum espaço." placeholder="Senha"></input>
+                <input id="senha" class="cadastro__formulario-senha" type="password" pattern="^(?=.*\d).{4,8}$" title="A senha deve ter entre 4 e 8 dígitos e incluir pelo menos um dígito numérico." placeholder="Senha"></input>
                 <span id="senhaErro" class="cadastro__erro cadastro__erro-msg">Este campo deve ser preenchido e senha deve ser válida</span>
                 <input type="submit" class="cadastro__envio" id="botaoEnvio" value="Comece seu teste grátis!"></input>
                 <p class="cadastro__formulario-termos">Ao clicar neste botão você estará aceitando nossos <a class="cadastro__formulario-link" href="#">Termos e Condições</a></p>
